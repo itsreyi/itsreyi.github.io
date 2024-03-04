@@ -160,6 +160,7 @@ footer ul li p{
 .RW{
     background-color: rgb(255, 255, 255);
     margin: 0;
+    padding-bottom: 50px;
 }
 
 .RW p{
@@ -217,7 +218,48 @@ footer ul li p{
 
 .reviews li::-webkit-scrollbar {
     display: none;
-  }
+}
+
+.formation{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    background-color: rgb(225, 225, 225);
+
+    width: 100%;
+}
+
+.formation .all{
+    width: 50%;
+    text-align: left;
+    text-align: center;
+}
+
+.formation .img{
+    width: 50%;
+}
+
+.formation .img img{
+    width: 100%;
+    height: 100%;
+}
+
+.formation .all .title{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 30px;
+}
+
+.formation .all .text{
+    font-size: 25px;
+    margin: 30px 30px;
+    width: 500px;
+    display: flex;
+    margin: 0px auto;
+}
+
+
 
 @media only screen and (min-width: 600px){
     article{
@@ -226,7 +268,7 @@ footer ul li p{
     }
 
     .reviews li{
-        height: 450;
+        height: 450px;
         width: auto;
         margin: 15px;
         overflow-y: scroll;
@@ -236,5 +278,10 @@ footer ul li p{
         min-height: 70px;
         height: auto;
         width: auto;
+    }
+
+    .formation .all .text{
+        height: auto;
+        width: 30vw;
     }
 }
