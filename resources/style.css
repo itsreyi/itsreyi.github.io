@@ -146,10 +146,18 @@ footer ul li p{
     font-size: 15px;
 }
 
+.ABTME{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
 
 
-@media only screen and(max-width: 600px){
+
+@media only screen and (min-width: 400px){
     article{
-        height: 100vh;
+        height: 83.6vh;
     }
 }
