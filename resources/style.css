@@ -147,3 +147,9 @@ footer ul li p{
 }
 
 
+
+@media only screen and(max-width: 600px){
+    article{
+        height: 100vh;
+    }
+}
