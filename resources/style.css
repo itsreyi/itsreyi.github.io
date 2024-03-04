@@ -106,6 +106,12 @@ footer ul li{
     margin: 0 20px; 
 }
 
+footer .lf{
+    display: flex;
+    margin-left:100px;
+    float: left;
+}
+
 
 
 .container{
