@@ -18,6 +18,11 @@ h1 p{
     
 }
 
+.container .lf .title{
+    color:black;
+    text-decoration: none;
+}
+
 ul li{
     display: inline-block;
 }
