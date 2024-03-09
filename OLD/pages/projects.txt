@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My Portfolio | Projects</title>
+    
+        <link rel="stylesheet" type="text/css" href="../resources/style.css">
+    
+        <div class="container">
+            <div class="lf">
+                <a class="title" href="../index.html">My Portfolio</a>
+            </div>
+    
+    
+            <div class="rg">
+                <ul>
+                    <li>
+                        <a href="../index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="./aboutme.html">About Me</a>
+                    </li>
+    
+                    <li>
+                        <a href="./contacts.html">Contacts</a>
+                    </li>
+    
+                </ul>
+            </div>
+        </div>
+    </head>
+
+    <body>
+        <h1>🚧 Works in progress 🚧</h1>
+    </body>
+</html>
