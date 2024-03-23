@@ -116,6 +116,7 @@ main {
 
     color: white;
     font-size: 50px;
+
 }
 
 main .presentation p {
@@ -201,8 +202,12 @@ footer .bold:hover{
     text-decoration: underline;
 }
 
+
 footer ul{
     margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 
