@@ -1,17 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
 
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-html{
+html {
     background-color: black;
 }
 
+#bold {
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: 10px outset rgb(222, 222, 222);
+}
 
-.top{
+
+.top {
     width: 100%;
     height: 200px;
 
@@ -19,7 +27,7 @@ html{
 }
 
 
-.top p{
+.top p {
     display: flex;
     justify-content: center;
     padding-top: 20px;
@@ -30,18 +38,18 @@ html{
 }
 
 
-.top nav{
+.top nav {
     padding-top: 40px;
 }
 
 
-.top nav ul{
+.top nav ul {
     display: flex;
     justify-content: center;
 }
 
 
-.top nav ul li{
+.top nav ul li {
     display: inline-flex;
     margin-left: 50px;
     margin-right: 50px;
@@ -50,19 +58,25 @@ html{
 }
 
 
-.top nav ul li a{
+.top nav ul li a {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
 }
 
 
-.top nav ul li a:hover{
+.top nav ul li a:hover {
     text-decoration: none;
     font-weight: bold;
     color: rgb(0, 0, 0);
 }
 
-main{
+main {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
     width: 100%;
     height: 900px;
 
@@ -71,25 +85,25 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    padding: 100px 0;
+    padding-top: 70px;
 }
 
-main{
+
+.presentation {
     display: flex;
-    width: 100%;
+    flex-direction: column;
+
+    width: 70%;
+    height: 70%;
+    z-index: 5;
+
     align-items: center;
     justify-content: center;
 }
 
-.presentation{
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 70%;
-    z-index: 5;
-    align-items: center;
-}
-
-.presentation p{
+.presentation p {
     display: flex;
     flex-direction: column;
 
@@ -99,42 +113,12 @@ main{
 
     height: 100%;
     width: 100%;
-    
+
     color: white;
     font-size: 50px;
 }
 
-
-@media only screen and (min-width: 375px){
-    .top p{
-        font-size: 60px;
-    }
-    .top nav ul li a
-    {
-        font-size: 30px;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    .top p{
-        font-size: 70px;
-    }
-    .top nav ul li a
-    {
-        font-size: 35px;
-    }
-}
-
-
-#bold{
-    font-weight: bold;
-    font-size: 40px;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    border: 10px outset rgb(222, 222, 222);
-}
-
-main .presentation p{
+main .presentation p {
     display: flex;
 
     color: rgb(222, 222, 222);
@@ -143,19 +127,119 @@ main .presentation p{
     width: 90%;
 }
 
-main{
-    text-align: center;
 
-    background-image: url("./texture.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-    padding: 100px 0;
-    padding-top: 70px;
+main {
+    
 }
 
-.presentation{
+.education{
+    display: flex;
     align-items: center;
     justify-content: center;
+    text-align: center;
+
+    width: 100%;
+    height: 700px;
+
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+.education .bold{
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.education p{
+    font-size: 35px;
+}
+
+.rg{
+    width: 50%;
+}
+
+.lf{
+    width: 50%; 
+}
+
+.education p{
+    color:black;
+    font-size: 35px;
+}
+
+.lf img{
+    width: 100%;
+    height: 100%;
+}
+
+footer{
+    display: flex;
+
+    width: 100%;
+    height: 200px;
+
+    color:white;
+    background-color: rgb(0, 0, 0);
+
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer .bold{
+    font-size: 40px;
+    margin-left: 70px;
+    color: white;
+}
+
+footer .bold:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+footer ul{
+    margin-right: 70px;
+}
+
+
+footer ul li{
+    display: inline-block;
+    float: right;
+    margin: 0 10px;
+}
+
+footer ul li a{
+    color: white;
+    font-size: 30px;
+    margin: 0 10px;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+@media only screen and (min-width: 375px) {
+    .top p {
+        font-size: 60px;
+    }
+
+    .top nav ul li a {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .top p {
+        font-size: 70px;
+    }
+
+    .top nav ul li a {
+        font-size: 35px;
+    }
 }
