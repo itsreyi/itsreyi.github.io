@@ -1,0 +1,19 @@
+<article>
+            <h2>Who I am</h2>
+
+            <p>
+                Hi, I'm a young and enthusiastic programmer with a deep passion for the ever-evolving world of Information Technology. My journey into the realm of IT began many years ago, fueled by an insatiable curiosity and a desire to understand the inner workings of technology.
+            </p>
+
+            <p>
+                Throughout my journey, I've dedicated countless hours to honing my programming skills and expanding my knowledge base. From learning the fundamentals of coding to mastering advanced concepts, I've immersed myself in various programming languages, frameworks, and technologies.
+            </p>
+
+            <p>
+                One of my greatest passions is web development. There's something incredibly satisfying about bringing ideas to life through the creation of dynamic and interactive websites. Whether it's crafting elegant user interfaces or architecting robust backend systems, I find joy in every aspect of the development process.
+            </p>
+
+            <p>
+                When I'm not coding, you can find me exploring the latest trends in technology, experimenting with new tools and techniques, or simply immersing myself in the endless possibilities that the digital world has to offer.
+            </p>
+        </article>

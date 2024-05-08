@@ -1,5 +1,6 @@
+
 *{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 20px;
     margin: 0px;
     padding: 0px;
@@ -11,13 +12,17 @@ h1{
 
     font-size: 30px;
     font-weight: bold;
+
+    transition: 0.7s;
 }
+
+
 
 nav{
     display: flex;
     width: 100%;
     height: 100px;
-    background-color: black;
+    background-color: rgb(42, 39, 39);
 }
 
 nav ul{
@@ -29,46 +34,97 @@ nav ul{
 
 nav ul li{
     display: inline-flex;
-    margin: 0 40px;
 
-    font-size: 25px;
+    padding: 39px 30px;
+    font-weight: bold   ;
+
+    font-size: 20px;
+
+    transition: 0.2s;
 }
 
 nav ul li:hover{
-    font-weight: bold;
-    text-decoration: underline;
+    cursor: pointer;
+    background-color: rgb(61, 61, 61);
+
+    border-top: 5px solid rgb(205, 67, 255);
+    padding: 35px 30px;
+
+    transition: 0.2s;
+}
+
+h1:hover{
+    color: rgb(205, 67, 255);
+    cursor: pointer;
+    transition: 0.7s;
 }
 
 body{
-    background-color: rgb(66, 66, 66);
+    background-color: rgb(255, 255, 255);
 }
 
 
 article{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    margin-bottom: 40px;
-
-    color: white;
+    margin: 250px 200px;
 
 
-    width: 50%;
+
+    color: rgb(83, 83, 83);
+
+
+    width: 80%;
     height: 100%;
 }
 
-article h2{
+h2{
     font-weight: bold;
-    font-size: 25px;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    font-size: 60px;
 
-    color: rgb(128, 255, 82);
+    color: rgb(0, 0, 0);
 }
 
 article p{
-    margin-left: 15px;
+    width: 70%;
+
+    font-size: 55px;
+
     margin-bottom: 20px;
+    font-weight: bold;
+    color:rgb(107, 107, 107);
+}
+
+article a {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    text-decoration: none;
+    background-color: rgb(42, 39, 39);
+    border-radius: 30px;
+    border: 10px solid rgb(42, 39, 39);
+}
+
+article a p {
+    font-size: 50px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center; 
+    line-height: 1;
+
+    transition: 0.2s;
+}
+
+article a p:hover{
+    color: rgb(205, 67, 255);
+    transition: 0.2s;
+
+}
+
+article a:hover{
+    background-color: rgb(61, 61, 61);
+    border: 10px solid rgb(61, 61, 61);
+    transition: 0.2s;
 }
 
 
@@ -76,10 +132,15 @@ article p{
     display: flex;
     flex-direction: column;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin: 250px auto;
+
+
     
-    font-weight: bold;
-    color: rgb(128, 255, 82);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    color: rgb(0, 0, 0);
 
 
     width: 50%;
@@ -87,32 +148,53 @@ article p{
 }
 
 #seconds{
-    font-weight: normal;
-    margin-top: 10px;
-    margin-left: 30px;
-    color: white;
+    font-weight: bold;
+    font-size: 70px;
+    color: rgb(107, 107, 107);
 }
 
 
 .skills{
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 40px;
 
-    color: white;
+   
+
+    margin: auto 250px;
+    font-weight: bold;
 
 
-    width: 50%;
-    height: 100%;
+    color: rgb(107, 107, 107);
+
+
+    width: 70%;
+}
+.skills .programming:hover{
+    box-shadow: 0px 0px 20px 10px rgba(194, 27, 255, 0.283);
+
+    transition: 0.8s;
+}
+
+.skills .programming{
+    background-color: rgba(135, 135, 135, 0.283);
+    border-radius: 40px;
+    display: flex;
+
+    width: 100%;
+
+    margin: 60px auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    transition: 0.8s;
 }
 
 
+
 .skills h2{
-    color: rgb(128, 255, 82);
+    color: rgb(0, 0, 0);
     font-weight: bold;
-    margin-top: 60px;
 }
 
 
@@ -175,8 +257,8 @@ footer ul li{
 }
 
 footer ul li:hover{
-    font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 .left{
@@ -192,5 +274,11 @@ footer ul li:hover{
 }
 
 .navs{
-    color: rgb(68, 255, 0);
+    color: rgb(255, 255, 255);
 }
+
+.color{
+    color: rgb(205, 67, 255);
+}
+
+
